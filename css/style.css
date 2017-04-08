@@ -1,0 +1,65 @@
+body {
+    background-color:#EBEBEB;
+    margin: 0px;
+}
+
+#title, #contact {
+    background-color:#FFDAD8;
+    font-family: Arial, Helvetica, sans-serif; 
+    padding-left: 10px;
+}
+
+h1 {
+    font-size: 46px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #444444;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+    font-size: 26px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #7A7A7A; 
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    color:#7A7A7A;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, serif;
+}
+
+a {
+    color: #7A7A7A;
+    text-decoration: none;
+}
+
+div {
+     border: 1px solid black;
+}
+
+#text-area {
+    width: 670px;
+    margin-top: 150px;
+}
+
+#contact {
+    width: 500px;
+    margin-top: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#contact > div {
+    display: inline;
+    margin-right: 20px; 
+    color:  #7A7A7A;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#title {
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
