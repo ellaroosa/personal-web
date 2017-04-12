@@ -1,0 +1,5 @@
+#!/bin/bash
+
+echo "Deploying..."
+aws s3 sync . s3://koivupuro.com --exclude '*' --include 'css/*' --include 'fonts/*' --include 'index.html' --include 'js/*' --exclude '*/.*' --delete
+echo "Finished!"
