@@ -1,6 +1,20 @@
+html {
+    height: 100%;
+}
+
 body {
     background-color:#EBEBEB;
     margin: 0px;
+
+    display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+    display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+    display: -ms-flexbox;      /* TWEENER - IE 10 */
+    display: -webkit-flex;     /* NEW - Chrome */
+    display: flex;             /* NEW, Spec - Opera 12.1, Firefox 20+ */
+
+    align-items: center;
+    -webkit-align-items: center;
+    height: 100%;
 }
 
 p {
@@ -15,7 +29,6 @@ a {
 }
 
 #text-area {
-    margin-top: 150px;
     white-space: nowrap;
 }
 
